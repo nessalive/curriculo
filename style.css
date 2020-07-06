@@ -1,0 +1,129 @@
+*{
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        flex-direction: column;
+    }
+ }
+
+.caixa{
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    width:70%; 
+    background: #ffff52;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .caixa{
+        width: 100%;
+    }
+ }
+
+.lado{
+    height: 100%;
+    width: 30%;
+    background: #ffff7a;
+}
+
+@media only screen and (max-width: 600px) {
+    .lado{
+        width: 100%;
+    }
+ }
+
+.cima{
+    display: flex;
+    margin: 0.688rem;
+
+}
+
+h1{
+    padding-top: 3.125rem;
+    margin-left: 0.938rem;
+}
+
+.p{
+    font-weight: normal;
+    font-size: 1rem;
+    margin:0.313rem;
+}
+
+.eu{
+    border: 0.125rem solid black;
+    border-radius: 50%;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    margin: 1.875rem;
+    flex-wrap: wrap;
+}
+
+.list{
+    list-style: none;
+}
+
+.list1{
+    font-size: 1rem;
+    list-style: none;
+    margin:0.625rem;
+    flex-wrap: wrap;
+}
+
+.u{
+    font-size: 0.9rem;
+}
+
+.dados{
+    font-size: 1rem;
+    padding: 1.125rem;
+    padding-left: 0;
+}
+
+.cont{
+    margin: 1.25rem;
+    padding: 0.125rem;
+    width: 45%;
+    flex-wrap: wrap;
+
+}
+
+.icon{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.313rem;
+    flex-wrap: wrap;
+}
+
+.conhecimento{
+    height: 30%;
+    width: 30%;
+    margin-top: 0.625rem;
+    padding: 0.625rem;
+    flex-wrap: wrap;
+    
+}
+
+.dentro{
+    margin: 0.125rem;
+    list-style: none;
+}
